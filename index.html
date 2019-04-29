@@ -5,24 +5,32 @@
 
 <html>
 <head>
-  <title>Matt's Portfolio Webpage</title>
+  <title>Portfolio Follow Along</title>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
   <body>
     <header>
       <div class="logo">
         <div class="logoImage">
-          <img src="" alt="logoimage"/>
+          <img src="" alt="logo image"/>
         </div>
       </div>
       <div class="name">
         Matt Garverick
       </div>
+      <nav onclick='$(".menu").toggle();'>
       <div class="navbutton">
         &#9776;
       </div>
+      <ul class="menu" style="display:none"
+        <li>Home</li>
+        <li>Gallery</li>
+        <li>Resume</li>
+      </ul>
+    </nav>
     </header>
 
 

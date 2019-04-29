@@ -16,9 +16,27 @@ header {
   text-align: center;
 }
 
-.navbutton {
+nav {
+  position: relative;
   flex: 1;
+}
+
+.navbutton {
   text-align: right;
+}
+
+nav ul.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: none;
+  position: absolute;
+  right: 0px;
+  text-align: right;
+}
+
+nav:hover ul {
+  display: block;
 }
 /* End of header Style */
 
