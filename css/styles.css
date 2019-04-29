@@ -52,4 +52,8 @@ footer {
   /* possiblitity of background image for footer */
 }
 
+.socialMedia i {
+  padding: 0 4px;
+}
+
 /* End of Footer Styles */
