@@ -37,6 +37,8 @@ nav {
 }
 
 nav ul.menu {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -91,6 +93,7 @@ main {
 
 footer {
   text-align: center;
+  background-color: #0BB5FF;
   /* possiblitity of background image for footer */
 }
 
@@ -149,10 +152,13 @@ footer {
 
   footer {
     display: flex;
+    height: 40px;
     margin-top: 20px;
+    background-color: #0BB5FF;
   }
 .copy, .socialMedia, .contact {
   flex: 1;
+  margin-top: 10px;
 }
 
 .copy {
