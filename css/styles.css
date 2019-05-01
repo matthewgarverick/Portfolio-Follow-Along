@@ -4,6 +4,10 @@
 
 header {
   display: flex;
+  border-width: 0 0 5px 0;
+  border-style: solid;
+  border-color: #0BB5FF;
+  height: 180px;
 }
 
 .logo {
@@ -17,7 +21,11 @@ header {
 .name {
   flex-grow: 8;
   text-align: center;
+  font-size: 90px;
+  font-family: 'Galada', cursive;
+  line-height: 82px;
 }
+
 
 nav {
   position: relative;
@@ -55,7 +63,28 @@ main {
 .profileimage img {
   width: 80%;
   border-radius: 50%;
+  margin-top: 10px;
+}
 
+.aboutME {
+  flex: 1;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  border-left-width: 6px;
+  border-left-color: #0BB5FF;
+  border-left-style: solid;
+  background-color: lightgrey;
+  padding-left: 10px;
+}
+
+.aboutME h1 {
+  flex: 1;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 21px;
+  color: #0BB5FF;
+  padding-left: 5px;
+  padding-top: 20px;
 }
 
 /* End of Main Content styles */
@@ -82,15 +111,45 @@ footer {
 }
 
 .profileimage img {
-  width: 90%;
+  width: 80%;
+  margin-left: 55px;
+  margin-top: 40px;
+}
+
+.logo {
+  visibility: hidden;
 }
 
 .aboutME {
   flex: 1;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  border-left: 6px;
+  background-color: lightgrey;
+  border-left-color: #0BB5FF;
+  border-left-style: solid;
+  margin-top: 50px;
+  padding-left: 10px;
+  padding-top: 50px;
+}
+
+.aboutME h1 {
+  flex: 1;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 45px;
+  font-weight: 300;
+  color: #0BB5FF;
+}
+
+.aboutME p span {
+  flex: 1;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #0BB5FF;
 }
 
   footer {
     display: flex;
+    margin-top: 20px;
   }
 .copy, .socialMedia, .contact {
   flex: 1;
@@ -102,6 +161,62 @@ footer {
 
 .contact {
   text-align: right;
+}
+
+.navbutton {
+  text-align: right;
+  visibility: hidden;
+}
+
+nav ul.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: none;
+  position: absolute;
+  right: 0px;
+  text-align: right;
+  visibility: hidden;
+}
+
+.name h1 {
+  flex-grow: 8;
+  text-align: center;
+  font-size: 45px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  margin-top: -120px;
+  margin-right: 690px;
+
+}
+
+.name h2 {
+  flex-grow: 8;
+  text-align: center;
+  font-size: 45px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  margin-top: -112px;
+  margin-left: 590px;
+
+}
+
+.name h1 span {
+  flex-grow: 8;
+  text-align: center;
+  font-size: 45px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  color: #0BB5FF;
+}
+
+.name h2 span {
+  flex-grow: 8;
+  text-align: center;
+  font-size: 45px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  color: #0BB5FF;
 }
 
 }
